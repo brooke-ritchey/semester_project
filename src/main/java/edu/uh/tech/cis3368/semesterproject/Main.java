@@ -1,58 +1,56 @@
 package edu.uh.tech.cis3368.semesterproject;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.stereotype.Component;
 
 @SpringBootApplication
+@EnableJpaRepositories("edu.uh.tech.cis3368.semesterproject")
+@EntityScan
 public class Main extends Application {
 
-
-    private ConfigurableApplicationContext springContext;
     private Parent root;
 
+    private ConfigurableApplicationContext springContext;
+
     @Autowired
-    private EmployeeRepository employeeRepository;
+    EmployeeRepository employeeRepository;
 
     public static void main(String[] args) {
         launch();
     }
 
-    /**
-     * The application initialization method. This method is called immediately
-     * after the Application class is loaded and constructed. An application may
-     * override this method to perform initialization prior to the actual starting
-     * of the application.
-     *
-     * <p>
-     * The implementation of this method provided by the Application class does nothing.
-     * </p>
-     *
-     * <p>
-     * NOTE: This method is not called on the JavaFX Application Thread. An
-     * application must not construct a Scene or a Stage in this
-     * method.
-     * An application may construct other JavaFX objects in this method.
-     * </p>
-     *
-     * @throws Exception if something goes wrong
-     */
-    @Override
+   @Override
     public void init() throws Exception {
-        springContext = SpringApplication.run(Main.class);
+        springContext = SpringApplication.run(getClass());
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main.fxml"));
         fxmlLoader.setControllerFactory(springContext::getBean);
+        FXMLLoader fxmlLoader2 = new FXMLLoader(getClass().getResource("employeeManagement.fxml"));
+        fxmlLoader2.setControllerFactory(springContext::getBean);
         root = fxmlLoader.load();
         super.init();
 
-        springContext.getAutowireCapableBeanFactory().autowireBean(this);
+       springContext.getAutowireCapableBeanFactory().autowireBean(this);
 
 //        employeeRepository.hashCode();
 //        Employee employee = new Employee();
@@ -61,26 +59,16 @@ public class Main extends Application {
     }
 
 
-    /**
-     * The main entry point for all JavaFX applications.
-     * The start method is called after the init method has returned,
-     * and after the system is ready for the application to begin running.
-     *
-     * <p>
-     * NOTE: This method is called on the JavaFX Application Thread.
-     * </p>
-     *
-     * @param primaryStage the primary stage for this application, onto which
-     *                     the application scene can be set. The primary stage will be embedded in
-     *                     the browser if the application was launched as an applet.
-     *                     Applications may create other stages, if needed, but they will not be
-     *                     primary stages and will not be embedded in the browser.
-     * @throws Exception if something goes wrong
-     */
+
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(root,300,300));
+
+
+
+        Scene mainMenu = new Scene(root,300,300);
+        primaryStage.setScene(mainMenu);
         primaryStage.show();
 
     }
+
 }

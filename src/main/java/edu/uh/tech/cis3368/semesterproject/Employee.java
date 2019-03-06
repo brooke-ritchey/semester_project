@@ -4,10 +4,13 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
+@Table(name = "Employee")
 public class Employee {
     private int id;
     private String lastName;
-
+    private String firstName;
+    private String email;
+    private String phone;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -42,5 +45,35 @@ public class Employee {
     @Override
     public int hashCode() {
         return Objects.hash(id, lastName);
+    }
+
+    @Basic
+    @Column(name = "FIRST_NAME", nullable = false, length = 24)
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    @Basic
+    @Column(name = "EMAIL", nullable = false, length = 50)
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Basic
+    @Column(name = "PHONE", nullable = false, length = 11)
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

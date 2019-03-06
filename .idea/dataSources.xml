@@ -7,5 +7,45 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:$PROJECT_DIR$/project;AUTO_SERVER=true</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="semester-project/EclipseLink" uuid="638d9503-0b25-413b-ae5f-83d0cf17a9f3">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>EclipseLink
+
+C:/Users/brook/Documents/Database/semester-project-lexlenthenobody/src/main/java/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/project;AUTO_SERVER=true</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="semester-project/OpenJPA" uuid="1c14a461-5386-461a-b56a-b5595c054565">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>OpenJPA
+
+C:/Users/brook/Documents/Database/semester-project-lexlenthenobody/src/main/java/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/project;AUTO_SERVER=true</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="semester-project/Hibernate" uuid="527b911a-df77-4480-b407-678e8bf4e7cb">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/brook/Documents/Database/semester-project-lexlenthenobody/src/main/java/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/project;AUTO_SERVER=true</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="semester-project/TopLink" uuid="b57f243f-4133-4229-8491-74ce0db54489">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>TopLink
+
+C:/Users/brook/Documents/Database/semester-project-lexlenthenobody/src/main/java/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/project;AUTO_SERVER=true</jdbc-url>
+    </data-source>
   </component>
 </project>

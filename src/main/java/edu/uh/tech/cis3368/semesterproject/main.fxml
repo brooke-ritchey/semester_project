@@ -9,6 +9,10 @@
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="edu.uh.tech.cis3368.semesterproject.MainController"
-            prefHeight="400.0" prefWidth="600.0">
-
+            prefHeight="400.0" prefWidth="600.0"
+            fx:id="root">
+    <VBox>
+        <Button text="Employee Management" onAction="#empManage"/>
+        <Button text="Job Entry" onAction="#jobEntry"/>
+    </VBox>
 </AnchorPane>
