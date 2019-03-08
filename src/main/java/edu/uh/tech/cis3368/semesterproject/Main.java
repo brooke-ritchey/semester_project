@@ -25,8 +25,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-@EnableJpaRepositories("edu.uh.tech.cis3368.semesterproject")
-@EntityScan
 public class Main extends Application {
 
     private Parent root;

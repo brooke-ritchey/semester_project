@@ -3,8 +3,8 @@
 
     <persistence-unit name="semester-project">
         <class>edu.uh.tech.cis3368.semesterproject.Customer</class>
-        <class>edu.uh.tech.cis3368.semesterproject.Employee</class>
         <class>edu.uh.tech.cis3368.semesterproject.Job</class>
+        <class>edu.uh.tech.cis3368.semesterproject.Employee</class>
         <properties>
             <property name="toplink.jdbc.url"
                       value="jdbc:h2:C:/Users/brook/Documents/Database/semester-project-lexlenthenobody/project;AUTO_SERVER=true"/>

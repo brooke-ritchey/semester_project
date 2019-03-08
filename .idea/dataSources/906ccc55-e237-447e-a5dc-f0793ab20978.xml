@@ -162,7 +162,7 @@
     </column>
     <column id="37" parent="8" name="installed_on">
       <Position>8</Position>
-      <DataType>TIMESTAMP(23,10)|93s</DataType>
+      <DataType>TIMESTAMP(26,6)|93s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP()</DefaultExpression>
     </column>
