@@ -39,12 +39,12 @@ public class MainController{
     }
 
     @FXML
-    private void jobEntry(ActionEvent actionEvent) throws IOException{
+    private void jobManage(ActionEvent actionEvent) throws IOException{
         Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jobEntry.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jobManagement.fxml"));
         fxmlLoader.setControllerFactory(applicationContext::getBean);
         Scene scene = new Scene(fxmlLoader.load());
-        JobEntry jobEntry = fxmlLoader.getController();
+        JobManagement jobEntry = fxmlLoader.getController();
         jobEntry.setReturnScene(job.getScene());
         parent.setScene(scene);
 

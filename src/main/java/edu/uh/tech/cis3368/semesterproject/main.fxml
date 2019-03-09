@@ -14,7 +14,7 @@
     <children>
         <VBox>
         <Button fx:id="employeeMng" mnemonicParsing="false" onAction="#empManage"  text="Employee Management" />
-        <Button fx:id="job" text="Job Entry" onAction="#jobEntry"/>
+        <Button fx:id="job" text="Job Management" onAction="#jobManage"/>
         </VBox>
     </children>
 
