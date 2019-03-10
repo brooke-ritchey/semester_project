@@ -2,6 +2,7 @@ package edu.uh.tech.cis3368.semesterproject;
 
 import javax.persistence.*;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 public class Customer {
@@ -10,6 +11,18 @@ public class Customer {
     private String lastName;
     private String address;
     private String phoneNumber;
+    private Set<Job> jobs;
+
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "customer", cascade = CascadeType.ALL)
+    public Set<Job> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(Set<Job> jobs) {
+        jobs.forEach( job -> job.setCustomer(this));
+        this.jobs = jobs;
+    }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

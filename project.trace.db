@@ -1,3 +1,0 @@
-2019-03-08 16:08:33 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Value too long for column "PHONE VARCHAR(11) NOT NULL": "'kkkkkkkkkkkk' (12)"; SQL statement:
-insert into employee (id, email, first_name, last_name, phone) values (null, ?, ?, ?, ?) [22001-197]

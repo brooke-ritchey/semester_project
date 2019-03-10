@@ -107,12 +107,13 @@ public class EmployeeManagement implements Initializable{
 
 
     @FXML
-    private void mainMenu(ActionEvent actionEvent) {
-        if (scene == null) {
-            btnMain.getScene().getWindow().hide();
-        } else {
-            ((Stage) btnMain.getScene().getWindow()).setScene(scene);
-        }
+    private void mainMenu(ActionEvent actionEvent) throws IOException{
+        Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main.fxml"));
+        fxmlLoader.setControllerFactory(applicationContext::getBean);
+        Scene scene = new Scene(fxmlLoader.load());
+        MainController mainController = fxmlLoader.getController();
+        parent.setScene(scene);
     }
 
     @FXML

@@ -10,5 +10,44 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="edu.uh.tech.cis3368.semesterproject.JobManagement"
             prefHeight="400.0" prefWidth="600.0">
-
+    <children>
+        <VBox>
+            <HBox>
+                <TableView fx:id="preprod" prefWidth="250">
+                    <columns>
+                        <TableColumn text="Pre-Production" prefWidth="250">
+                            <columns>
+                                <TableColumn fx:id="preName" text="Name" prefWidth="125"/>
+                                <TableColumn fx:id="preDesc" text="Description" prefWidth="125"/>
+                            </columns>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+                <TableView fx:id="prod" prefWidth="250">
+                    <columns>
+                        <TableColumn text="Production" prefWidth="250">
+                            <columns>
+                                <TableColumn text="Name" prefWidth="125"/>
+                                <TableColumn text="Description" prefWidth="125"/>
+                            </columns>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+                <TableView fx:id="close" prefWidth="250">
+                    <columns>
+                        <TableColumn text="Close Out" prefWidth="250">
+                            <columns>
+                                <TableColumn text="Name" prefWidth="125"/>
+                                <TableColumn text="Description" prefWidth="125"/>
+                            </columns>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+            </HBox>
+            <HBox>
+                <Button fx:id="btnNew" text="New Job" onAction="#newJob"/>
+                <Button fx:id="btnMain" text="Main Menu" onAction="#mainMenu"/>
+            </HBox>
+        </VBox>
+    </children>
 </AnchorPane>

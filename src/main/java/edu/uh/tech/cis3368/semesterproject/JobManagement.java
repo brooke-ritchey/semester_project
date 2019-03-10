@@ -1,15 +1,61 @@
 package edu.uh.tech.cis3368.semesterproject;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
-
+import java.io.IOException;
 import java.net.URL;
+import java.util.HashSet;
 import java.util.ResourceBundle;
+import java.util.Set;
 
 @Component
 public class JobManagement implements Initializable {
     private Scene scene;
+    @Autowired
+    ConfigurableApplicationContext applicationContext;
+    @Autowired
+    CustomerRepository customerRepository;
+    @Autowired
+    JobRepository jobRepository;
+
+    @FXML
+    Button btnMain;
+    @FXML
+    Button btnNew;
+    @FXML
+    TextField first;
+    @FXML
+    TextField last;
+    @FXML
+    TextField address;
+    @FXML
+    TextField phone;
+    @FXML
+    TextField name;
+    @FXML
+    TextArea desc;
+    @FXML
+    TextField stage;
+    ObservableList<Job> jobs;
+    ObservableList<Job> prejobs;
+    @FXML
+    TableColumn preName;
+    @FXML
+    TableColumn preDesc;
+    @FXML
+    TableView preprod;
 
 
 
@@ -20,6 +66,79 @@ public class JobManagement implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        jobs = FXCollections.observableArrayList();
+        prejobs = FXCollections.observableArrayList();
+        customerRepository.findAll().forEach(c -> jobs.addAll(c.getJobs()));
+        jobs.stream().filter(j -> j.getStage() != "Pre-Production").forEach(j -> prejobs.add(j));
+        preName.setCellValueFactory(new PropertyValueFactory<Job, String>("name"));
+        preDesc.setCellValueFactory(new PropertyValueFactory<Job, String>("description"));
+        preprod.getColumns();
+        preprod.setItems(prejobs);
+    }
 
+    @FXML
+    private void newJob(ActionEvent actionEvent) throws IOException {
+        Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("newJob.fxml"));
+        fxmlLoader.setControllerFactory(applicationContext::getBean);
+        Scene scene = new Scene(fxmlLoader.load());
+        JobManagement newEmployee = fxmlLoader.getController();
+        newEmployee.setReturnScene(btnNew.getScene());
+        parent.setScene(scene);
+    }
+
+    @FXML
+    private void save(){
+        Customer customer = new Customer();
+        Job job = new Job();
+        if(customerRepository.findByFirstNameAndLastNameAndAddress(first.getText(),last.getText(),address.getText()) != null){
+            customer = customerRepository.findByFirstNameAndLastNameAndAddress(first.getText(),last.getText(),address.getText());
+
+            job.setDescription(desc.getText());
+            job.setName(name.getText());
+            job.setStage(stage.getText());
+
+            job.setCustomer(customer);
+
+            jobRepository.save(job);
+        }
+        else{
+            customer.setFirstName(first.getText());
+            customer.setLastName(last.getText());
+            customer.setAddress(address.getText());
+            customer.setPhoneNumber(phone.getText());
+            job.setDescription(desc.getText());
+            job.setName(name.getText());
+            job.setStage(stage.getText());
+
+            Set<Job> jobs = new HashSet<>();
+            jobs.add(job);
+            customer.setJobs(jobs);
+
+            customerRepository.save(customer);
+        }
+        name.clear();
+        desc.clear();
+    }
+
+    @FXML
+    private void back(ActionEvent actionEvent) throws IOException {
+        Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jobManagement.fxml"));
+        fxmlLoader.setControllerFactory(applicationContext::getBean);
+        Scene scene = new Scene(fxmlLoader.load());
+        JobManagement newEmployee = fxmlLoader.getController();
+        newEmployee.setReturnScene(btnNew.getScene());
+        parent.setScene(scene);
+    }
+
+    @FXML
+    private void mainMenu(ActionEvent actionEvent) throws IOException{
+        Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main.fxml"));
+        fxmlLoader.setControllerFactory(applicationContext::getBean);
+        Scene scene = new Scene(fxmlLoader.load());
+        MainController mainController = fxmlLoader.getController();
+        parent.setScene(scene);
     }
 }

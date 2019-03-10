@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="edu.uh.tech.cis3368.semesterproject.JobManagement"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <VBox>
+            <Label text="Customer Information"/>
+            <HBox>
+                <Label text="First Name: "/>
+                <TextField fx:id="first"/>
+            </HBox>
+            <HBox>
+                <Label text="Last Name: "/>
+                <TextField fx:id="last"/>
+            </HBox>
+            <HBox>
+                <Label text="Address: "/>
+                <TextField fx:id="address"/>
+            </HBox>
+            <HBox>
+                <Label text="Phone Number: "/>
+                <TextField fx:id="phone"/>
+            </HBox>
+            <Label text="Job Information"/>
+            <HBox>
+                <Label text="Name: "/>
+                <TextField fx:id="name"/>
+            </HBox>
+            <VBox>
+                <Label text="Description: "/>
+                <TextArea fx:id="desc"/>
+            </VBox>
+            <HBox>
+                <Label text="Stage: "/>
+                <TextField fx:id="stage" editable="false" text="Pre-Production" disable="true"/>
+            </HBox>
+            <HBox>
+                <Button text="Save" onAction="#save"/>
+                <Button text="Back" onAction="#back"/>
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

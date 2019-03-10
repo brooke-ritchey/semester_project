@@ -8,6 +8,18 @@ public class Job {
     private int id;
     private String name;
     private String description;
+    private String stage;
+    Customer customer;
+
+    @ManyToOne
+    @JoinColumn(name = "customer_id")
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -40,6 +52,16 @@ public class Job {
         this.description = description;
     }
 
+    @Basic
+    @Column(name = "STAGE", nullable = false, length = 15)
+    public String getStage() {
+        return stage;
+    }
+
+    public void setStage(String stage) {
+        this.stage = stage;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -47,11 +69,12 @@ public class Job {
         Job job = (Job) o;
         return id == job.id &&
                 Objects.equals(name, job.name) &&
-                Objects.equals(description, job.description);
+                Objects.equals(description, job.description) &&
+                Objects.equals(stage, job.stage);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, description);
+        return Objects.hash(id, name, description, stage);
     }
 }

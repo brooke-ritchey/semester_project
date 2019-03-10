@@ -41,6 +41,7 @@
         <HBox>
             <Button text="Update" onAction="#updateEmployee"/>
             <Button text="Delete" onAction="#deleteEmployee"/>
+            <Button text="Main Menu" onAction="#mainMenu"/>
         </HBox>
 
     </VBox>
