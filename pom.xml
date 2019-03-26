@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.uh.tech.cis3368</groupId>
-    <artifactId>project-starter</artifactId>
+    <artifactId>semester-project-lexlenthenobody</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>project-starter</name>
+    <name>semester-project-lexlenthenobody</name>
     <description>Starter project for CIS 3368 semester project</description>
 
     <parent>

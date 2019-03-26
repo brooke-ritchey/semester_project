@@ -58,6 +58,10 @@ public class NewEmployee implements Initializable {
         employee.setEmail(email.getText().toString());
         employee.setPhone(phone.getText().toString());
         employeeRepository.save(employee);
+        firstname.clear();
+        lastname.clear();
+        email.clear();
+        phone.clear();
 
 
     }
