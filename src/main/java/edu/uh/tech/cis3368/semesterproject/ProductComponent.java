@@ -8,9 +8,42 @@ import java.util.Objects;
 public class ProductComponent {
     private int id;
     private int quantity;
+    Product product;
+    Component component;
+
+    public ProductComponent(int quantity, Component component, Product product) {
+        this.quantity = quantity;
+        this.component = component;
+        this.product = product;
+    }
+
+    public ProductComponent() {
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "component_id", referencedColumnName = "id")
+    public Component getComponent() {
+        return component;
+    }
+
+    public void setComponent(Component componentByComponentId) {
+        this.component = componentByComponentId;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "product_id", referencedColumnName = "id")
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID", nullable = false)
+
     public int getId() {
         return id;
     }

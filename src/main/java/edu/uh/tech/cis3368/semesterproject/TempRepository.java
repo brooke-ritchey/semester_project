@@ -4,6 +4,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ComponentRepository extends CrudRepository<Component, Integer> {
-    Component findByName(String name);
+public interface TempRepository extends CrudRepository<Temp, Integer> {
 }

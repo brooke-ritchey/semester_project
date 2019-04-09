@@ -1,9 +1,9 @@
 package edu.uh.tech.cis3368.semesterproject;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -11,9 +11,32 @@ public class Product {
     private int id;
     private String name;
     private String description;
+    private List<ProductComponent> productComponents = new ArrayList<>();
+    private Collection<ProductComponent> productComponent;
+
+    @OneToMany(mappedBy = "product")
+    public Collection<ProductComponent> getProductComponent() {
+        return productComponent;
+    }
+
+    public void setProductComponent(Collection<ProductComponent> productComponent) {
+        this.productComponent = productComponent;
+    }
+
+    public void addComponent(Component component, int quantity) {
+        ProductComponent productComponent =
+                new ProductComponent(quantity, component, this);
+        productComponents.add(productComponent);
+        component.getProductComponents().add(productComponent);
+
+    }
+
+    public Product(){}
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID", nullable = false)
+
     public int getId() {
         return id;
     }

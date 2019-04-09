@@ -46,6 +46,7 @@
             </HBox>
             <HBox>
                 <Button fx:id="btnNew" text="New Job" onAction="#newJob"/>
+                <Button fx:id="btnNewProd" text="New Product" onAction="#newProduct"/>
                 <Button fx:id="btnMain" text="Main Menu" onAction="#mainMenu"/>
             </HBox>
         </VBox>

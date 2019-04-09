@@ -35,6 +35,8 @@ public class JobManagement implements Initializable {
     @FXML
     Button btnNew;
     @FXML
+    Button btnNewProd;
+    @FXML
     TextField first;
     @FXML
     TextField last;
@@ -56,6 +58,8 @@ public class JobManagement implements Initializable {
     TableColumn preDesc;
     @FXML
     TableView preprod;
+    @Autowired
+    ProductRepository productRepository;
 
 
 
@@ -68,7 +72,7 @@ public class JobManagement implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         jobs = FXCollections.observableArrayList();
         prejobs = FXCollections.observableArrayList();
-        customerRepository.findAll().forEach(c -> jobs.addAll(c.getJobs()));
+        jobRepository.findAll().forEach(j -> jobs.add(j));
         jobs.stream().filter(j -> j.getStage() != "Pre-Production").forEach(j -> prejobs.add(j));
         preName.setCellValueFactory(new PropertyValueFactory<Job, String>("name"));
         preDesc.setCellValueFactory(new PropertyValueFactory<Job, String>("description"));
@@ -91,32 +95,23 @@ public class JobManagement implements Initializable {
     private void save(){
         Customer customer = new Customer();
         Job job = new Job();
-        if(customerRepository.findByFirstNameAndLastNameAndAddress(first.getText(),last.getText(),address.getText()) != null){
-            customer = customerRepository.findByFirstNameAndLastNameAndAddress(first.getText(),last.getText(),address.getText());
-
-            job.setDescription(desc.getText());
-            job.setName(name.getText());
-            job.setStage(stage.getText());
-
-            job.setCustomer(customer);
-
-            jobRepository.save(job);
-        }
-        else{
+        Product product = new Product();
+        product.setName("name");
+        product.setDescription("Desc");
+        productRepository.save(product);
             customer.setFirstName(first.getText());
             customer.setLastName(last.getText());
             customer.setAddress(address.getText());
             customer.setPhoneNumber(phone.getText());
+            customerRepository.save(customer);
+
             job.setDescription(desc.getText());
             job.setName(name.getText());
             job.setStage(stage.getText());
+            job.setProduct(product);
+            job.setCustomer(customer);
+            jobRepository.save(job);
 
-            Set<Job> jobs = new HashSet<>();
-            jobs.add(job);
-            customer.setJobs(jobs);
-
-            customerRepository.save(customer);
-        }
         name.clear();
         desc.clear();
     }
@@ -139,6 +134,17 @@ public class JobManagement implements Initializable {
         fxmlLoader.setControllerFactory(applicationContext::getBean);
         Scene scene = new Scene(fxmlLoader.load());
         MainController mainController = fxmlLoader.getController();
+        parent.setScene(scene);
+    }
+
+    @FXML
+    private void newProduct(ActionEvent actionEvent) throws IOException{
+        Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("newProduct.fxml"));
+        fxmlLoader.setControllerFactory(applicationContext::getBean);
+        Scene scene = new Scene(fxmlLoader.load());
+        NewProduct newEmployee = fxmlLoader.getController();
+        newEmployee.setReturnScene(btnNewProd.getScene());
         parent.setScene(scene);
     }
 }

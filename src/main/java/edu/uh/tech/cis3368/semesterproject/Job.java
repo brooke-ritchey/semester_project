@@ -2,6 +2,7 @@ package edu.uh.tech.cis3368.semesterproject;
 
 import javax.persistence.*;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 public class Job {
@@ -9,7 +10,24 @@ public class Job {
     private String name;
     private String description;
     private String stage;
+    Product product;
+
     Customer customer;
+
+    public Job(){
+
+    }
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "PRODUCT_ID", referencedColumnName = "ID")
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 
     @ManyToOne
     @JoinColumn(name = "customer_id")

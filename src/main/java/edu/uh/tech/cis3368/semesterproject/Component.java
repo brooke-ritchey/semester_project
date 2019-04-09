@@ -1,10 +1,9 @@
 package edu.uh.tech.cis3368.semesterproject;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -13,6 +12,16 @@ public class Component {
     private String name;
     private String description;
     private BigDecimal wholesalePrice;
+    private List<ProductComponent> productComponents = new ArrayList<>();
+
+    @OneToMany(mappedBy = "component",cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    public List<ProductComponent> getProductComponents() {
+        return productComponents;
+    }
+
+    public void setProductComponents(List<ProductComponent> productComponents) {
+        this.productComponents = productComponents;
+    }
 
     @Id
     @Column(name = "ID", nullable = false)

@@ -13,16 +13,6 @@ public class Customer {
     private String phoneNumber;
     private Set<Job> jobs;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "customer", cascade = CascadeType.ALL)
-    public Set<Job> getJobs() {
-        return jobs;
-    }
-
-    public void setJobs(Set<Job> jobs) {
-        jobs.forEach( job -> job.setCustomer(this));
-        this.jobs = jobs;
-    }
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
