@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="project">
+  <database-model serializer="dbm" rdbms="H2" format-version="4.11">
+    <root id="1">
+      <ServerVersion>1.4.196</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="PROJECT">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="5" parent="4" name="COMPONENT"/>
+    <table id="6" parent="4" name="CUSTOMER"/>
+    <table id="7" parent="4" name="EMPLOYEE"/>
+    <table id="8" parent="4" name="JOB"/>
+    <table id="9" parent="4" name="PRODUCT"/>
+    <table id="10" parent="4" name="PRODUCT_COMPONENT"/>
+    <table id="11" parent="4" name="TEMP"/>
+    <column id="12" parent="5" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="13" parent="5" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="5" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="5" name="WHOLESALE_PRICE">
+      <Position>4</Position>
+      <DataType>DECIMAL(4)|3s</DataType>
+    </column>
+    <index id="16" parent="5" name="PRIMARY_KEY_5">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="17" parent="5" name="CONSTRAINT_5">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_7C6A091D_275A_4777_BAC0_AE7C6E86E95C)</DefaultExpression>
+    </column>
+    <column id="19" parent="6" name="ADDRESS">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="6" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="6" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="6" name="PHONE_NUMBER">
+      <Position>5</Position>
+      <DataType>VARCHAR(11)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="23" parent="6" name="PRIMARY_KEY_52">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="24" parent="6" name="CONSTRAINT_52">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="7" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_81A64326_6D49_42C3_A86E_FDD92847F214)</DefaultExpression>
+    </column>
+    <column id="26" parent="7" name="EMAIL">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="7" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="7" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="7" name="PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR(11)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="30" parent="7" name="PRIMARY_KEY_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="7" name="CONSTRAINT_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="8" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_34158987_21C4_463E_8DA2_D43B0BD22B62)</DefaultExpression>
+    </column>
+    <column id="33" parent="8" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="8" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="8" name="STAGE">
+      <Position>4</Position>
+      <DataType>VARCHAR(15)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="8" name="CUSTOMER_ID">
+      <Position>5</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <column id="37" parent="8" name="PRODUCT_ID">
+      <Position>6</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <index id="38" parent="8" name="PRIMARY_KEY_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="39" parent="8" name="FKRVIFGOGQKMJSW51G2T3J7T0R3_INDEX_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CUSTOMER_ID</ColNames>
+    </index>
+    <index id="40" parent="8" name="FKC35E90RLHUAPCTFEIW38PMDKB_INDEX_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PRODUCT_ID</ColNames>
+    </index>
+    <key id="41" parent="8" name="CONSTRAINT_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="42" parent="8" name="FKRVIFGOGQKMJSW51G2T3J7T0R3">
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>CUSTOMER</RefTableName>
+      <RefKeyName>CONSTRAINT_52</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="43" parent="8" name="FKC35E90RLHUAPCTFEIW38PMDKB">
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>CONSTRAINT_18</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="44" parent="9" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_7194BE0F_9163_4FE2_B393_1722309E07E3)</DefaultExpression>
+    </column>
+    <column id="45" parent="9" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+    </column>
+    <column id="46" parent="9" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(24)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="9" name="PRIMARY_KEY_18">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="9" name="CONSTRAINT_18">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="10" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_F3380769_F297_4FB1_8AF4_4B16A19E117C)</DefaultExpression>
+    </column>
+    <column id="50" parent="10" name="QUANTITY">
+      <Position>2</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="10" name="COMPONENT_ID">
+      <Position>3</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <column id="52" parent="10" name="PRODUCT_ID">
+      <Position>4</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <index id="53" parent="10" name="PRIMARY_KEY_3">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="10" name="FK5VQ14DKHNHURN4QLLP7GVOU36_INDEX_3">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>COMPONENT_ID</ColNames>
+    </index>
+    <index id="55" parent="10" name="FK59UR8BOG2SSXYLW0QO28AUMCI_INDEX_3">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PRODUCT_ID</ColNames>
+    </index>
+    <key id="56" parent="10" name="CONSTRAINT_3">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="10" name="FK5VQ14DKHNHURN4QLLP7GVOU36">
+      <ColNames>COMPONENT_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>COMPONENT</RefTableName>
+      <RefKeyName>CONSTRAINT_5</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="58" parent="10" name="FK59UR8BOG2SSXYLW0QO28AUMCI">
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>CONSTRAINT_18</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="59" parent="11" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="11" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="11" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="11" name="QUANTITY">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="63" parent="11" name="PRIMARY_KEY_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="11" name="CONSTRAINT_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

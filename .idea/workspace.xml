@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" line="150" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" line="149" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc947650-c848-4db4-b721-48410030dbde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/TempRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/906ccc55-e237-447e-a5dc-f0793ab20978.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/906ccc55-e237-447e-a5dc-f0793ab20978.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_5_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ComponentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ComponentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.mv.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobEntry.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobManagement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V20190228180649__create_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190228180649__create_customers.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104136__create_products.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104136__create_products.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104320__create_product_components.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104320__create_product_components.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104706__create_jobs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104706__create_jobs.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,13 +63,13 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="project" type="feb32156:DbDataSourceImpl" />
-        <item name="PROJECT: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PROJECT: database" type="c8e2528e:H2ImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="project" type="feb32156:DbDataSourceImpl" />
-        <item name="PROJECT: database" type="2aa06773:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="PROJECT: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -78,25 +77,72 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="906ccc55-e237-447e-a5dc-f0793ab20978" />
+    </checked>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2086792131">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fxml" value="18" />
+          <entry key="java" value="11" />
+          <entry key="sql" value="178" />
+          <entry key="txt" value="45" />
+          <entry key="xml" value="257" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="SQL" value="178" />
+          <entry key="XML" value="275" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="COMPONENT" value="1" />
+          <entry key="CUSTOMER" value="1" />
+          <entry key="JOB" value="1" />
+          <entry key="PRODUCT" value="2" />
+          <entry key="db" value="1" />
+          <entry key="fxml" value="1" />
+          <entry key="java" value="4" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="15" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="5" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="SQL" value="12" />
+          <entry key="Scratch" value="3" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state relative-caret-position="105">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +154,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="133">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -117,17 +163,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-90">
+              <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/COMPONENT">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/172f1391-7f94-459e-bf01-b3c0b5fb125a/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/COMPONENT">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -136,19 +202,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/JOB">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/COMPONENT.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/PRODUCT">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,6 +232,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -178,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/projectstarter/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/projectstarter/ProjectStarterApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/projectstarter/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobEntry.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190223150103__create_employees.sql" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Configuration.java" />
@@ -195,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employeeManagement.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewEmployee.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190228180754__create_jobs.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104320__create_product_components.sql" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Component.java" />
@@ -204,7 +273,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProject.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobManagement.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolderRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190408184000__create_temp.sql" />
@@ -214,15 +282,24 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190228180649__create_customers.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104136__create_products.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104706__create_jobs.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -236,12 +313,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="semester-project-lexlenthenobody" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="semester-project-lexlenthenobody" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
         </path>
       </expand>
       <select />
@@ -290,9 +367,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -302,114 +379,65 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="uh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="uh" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="uh" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="cis3368" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="uh" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="cis3368" type="462c0819:PsiDirectoryNode" />
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
+              <item name="semesterproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semesterproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester-project-lexlenthenobody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="semester-project-lexlenthenobody" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="JPA.DatabaseSchemaImportDialog" value="906ccc55-e237-447e-a5dc-f0793ab20978" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -419,10 +447,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554788694735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555457763996" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project.mv.db" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -457,8 +485,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProjectStarterApplication">
-    <configuration default="true" type="Applet">
+  <component name="RunManager" selected="Maven.semester-project-lexlenthenobody [javafx:run]">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -485,16 +513,39 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="semester-project-lexlenthenobody [javafx:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="ProjectStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="semester-project-lexlenthenobody" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.uh.tech.cis3368.semesterproject.Main" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\brook\Downloads\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib --add-modules=javafx.controls,javafx.fxml" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <additionalParameters>
         <param>
@@ -506,8 +557,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -515,18 +565,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.semester-project-lexlenthenobody [javafx:run]" />
       <item itemvalue="Spring Boot.ProjectStarterApplication" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -559,11 +610,13 @@
       <workItem from="1554483835168" duration="962000" />
       <workItem from="1554651053655" duration="5134000" />
       <workItem from="1554756712383" duration="31756000" />
+      <workItem from="1555446669010" duration="14000" />
+      <workItem from="1555446690073" duration="5339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122950000" />
+    <option name="totallyTimeSpent" value="130446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,10 +628,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65404475" visible="true" weight="0.21055438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6446281" visible="true" weight="0.20728745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -586,20 +639,20 @@
       <window_info id="DB Browser" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Persistence" order="8" sideWeight="0.34595525" side_tool="true" visible="true" weight="0.21055438" />
+      <window_info id="Persistence" order="8" sideWeight="0.3553719" side_tool="true" weight="0.20728745" />
       <window_info id="Azure Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.89072496" visible="true" weight="0.35444444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8194332" visible="true" weight="0.3529412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.10927505" side_tool="true" visible="true" weight="0.35444444" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1805668" side_tool="true" visible="true" weight="0.3529412" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49733475" weight="0.3288889" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850778" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.36444443" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6437247" weight="0.36363637" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49959514" weight="0.32798573" />
       <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -616,14 +669,14 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.47668394" visible="true" weight="0.19402985" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.46556473" visible="true" weight="0.19433199" />
       <window_info anchor="right" id="News Feed" order="6" />
       <window_info anchor="right" id="Data View" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" x="100" y="123" width="1720" height="853" id="Documentation" order="11" type="FLOATING" />
-      <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.5233161" side_tool="true" weight="0.1380597" />
+      <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.5344353" side_tool="true" weight="0.19433199" />
       <window_info anchor="right" id="Maven" order="13" weight="0.14495632" />
       <window_info anchor="right" id="SciView" order="14" />
     </layout>
@@ -631,100 +684,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newEmployee.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/CustomerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employeeManagement.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/flyway_schema_history">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190223150103__create_employees.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190228180754__create_jobs.sql" />
-    <entry file="uml://DATABASE/906ccc55-e237-447e-a5dc-f0793ab20978.DATABASE:PROJECT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>906ccc55-e237-447e-a5dc-f0793ab20978.DATABASE:PROJECT</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="221.0" y="245.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.trace.db" />
     <entry file="uml://DATABASE/906ccc55-e237-447e-a5dc-f0793ab20978.SCHEMA:PROJECT.PUBLIC">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -782,10 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,21 +761,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProject.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProject.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,114 +777,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobEntry.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobEntry.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="782">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobEntry.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/jobManagement.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190408184000__create_temp.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/QuantityHolderRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190408184000__create_temp.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/TempRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -938,19 +832,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/PRODUCT_COMPONENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/PRODUCT_COMPONENT" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -967,11 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -979,103 +861,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/CUSTOMER" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/JOB" />
+    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/PRODUCT" />
+    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/COMPONENT" />
+    <entry file="file://$PROJECT_DIR$/project.trace.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
           <folding>
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java">
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/906ccc55-e237-447e-a5dc-f0793ab20978.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104706__create_jobs.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104136__create_products.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190228180649__create_customers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190223150103__create_employees.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104320__create_product_components.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190228180649__create_customers.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104136__create_products.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="799">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/CUSTOMER">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56a9ae3a-7418-4570-b3bb-d89d98ce5252/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d41b2856-35ad-4637-873c-7f3ea21c3910/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/172f1391-7f94-459e-bf01-b3c0b5fb125a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/CUSTOMER">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104706__create_jobs.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-          </folding>
+    <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/JOB">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/JOB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/PRODUCT">
+    <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/PRODUCT">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1085,25 +990,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/newProduct.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="133">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="das://906ccc55-e237-447e-a5dc-f0793ab20978/database/PROJECT/schema/PUBLIC/table/COMPONENT">
+    <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/COMPONENT">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
+    <entry file="das://172f1391-7f94-459e-bf01-b3c0b5fb125a/database/PROJECT/schema/PUBLIC/table/COMPONENT.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20190407104239__create_components.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/NewProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-90">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1040,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1136,7 +1052,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>actioncable (v5.2.0, Remote: ruby-2.5.1-p57) [gem]</last-edited>
+          <last-edited>actioncable (v5.2.1, ruby-2.4.4-p296) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1160,7 +1076,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>semester-project-lexlenthenobody</last-edited>
+          <last-edited>semesterproject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1200,5 +1116,7 @@
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
     <option value="flyway:migrate" />
+    <option value="flyway:repair" />
+    <option value="flyway:clean" />
   </component>
 </project>

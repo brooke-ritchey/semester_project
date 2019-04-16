@@ -98,7 +98,6 @@ public class JobManagement implements Initializable {
         Product product = new Product();
         product.setName("name");
         product.setDescription("Desc");
-        productRepository.save(product);
             customer.setFirstName(first.getText());
             customer.setLastName(last.getText());
             customer.setAddress(address.getText());

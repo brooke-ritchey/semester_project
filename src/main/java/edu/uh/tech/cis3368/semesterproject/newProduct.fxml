@@ -21,9 +21,9 @@
         </HBox>
         <VBox>
             <Label  text="Description"/>
-            <TextArea fx:id="proddesc"/>
+            <TextArea fx:id="proddesc" prefHeight="100"/>
         </VBox>
-        <Button fx:id="viewcomp" text="View Components"/>
+        <Label fx:id="viewcomp" text="Components"/>
         <TableView fx:id="complist" prefWidth="250">
             <columns>
                 <TableColumn fx:id="compname" text="Name"/>

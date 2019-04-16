@@ -4,7 +4,7 @@
     <root id="1">
       <ServerVersion>1.4.196</ServerVersion>
     </root>
-    <database id="2" parent="1" name="PROJECT">
+    <database id="2" parent="1" name=" AUTO_SERVER=TRUE">
       <Current>1</Current>
       <Visible>1</Visible>
     </database>

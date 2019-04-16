@@ -68,6 +68,7 @@ public class NewProduct implements Initializable{
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         jobs = FXCollections.observableArrayList();
         jobRepository.findAll().forEach(j -> jobs.add(j));
         drop.setItems(jobs);
@@ -121,10 +122,9 @@ public class NewProduct implements Initializable{
     @FXML
     private void save(){
         Job job = drop.getSelectionModel().getSelectedItem();
-
         usedtemps = FXCollections.observableArrayList();
         usedtemps.addAll(temps.stream().filter(c -> c.getQuantity() != "0").collect(Collectors.toList()));
-        Product product = new Product();
+        Product product = job.getProduct();
         product.setName(prodname.getText());
         productRepository.save(product);
         job.setProduct(product);

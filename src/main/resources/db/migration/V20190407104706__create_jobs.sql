@@ -8,5 +8,3 @@ CREATE TABLE JOB
   CUSTOMER_ID INTEGER NOT NULL REFERENCES CUSTOMER(ID),
   PRODUCT_ID INTEGER NOT NULL REFERENCES PRODUCT(ID)
 );
-
-insert into job(name, description, stage, customer_id, product_id) values('ok', 'ok', 'ok', 1, 1);

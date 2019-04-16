@@ -4,5 +4,3 @@ create table PRODUCT
     NAME varchar(24) not null,
     DESCRIPTION varchar(24)
 );
-
-insert into PRODUCT(name, DESCRIPTION) values ('ok', 'ok')

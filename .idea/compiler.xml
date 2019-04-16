@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="semester-project" />
         <module name="semester-project-lexlenthenobody" />
+        <module name="semesterproject" />
         <module name="starter-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="semester-project" target="11" />
       <module name="semester-project-lexlenthenobody" target="11" />
+      <module name="semesterproject" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="semester-project" options="-parameters" />
       <module name="semester-project-lexlenthenobody" options="-parameters" />
+      <module name="semesterproject" options="" />
     </option>
   </component>
 </project>
