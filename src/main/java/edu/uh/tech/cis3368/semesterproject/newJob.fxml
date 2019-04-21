@@ -40,7 +40,7 @@
             </VBox>
             <HBox>
                 <Label text="Stage: "/>
-                <TextField fx:id="stage" editable="false" text="Pre-Production" disable="true"/>
+                <TextField fx:id="stage" editable="false" text="1" disable="true"/>
             </HBox>
             <HBox>
                 <Button text="Save" onAction="#save"/>

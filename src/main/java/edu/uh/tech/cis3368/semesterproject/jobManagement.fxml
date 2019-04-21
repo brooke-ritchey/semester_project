@@ -13,7 +13,7 @@
     <children>
         <VBox>
             <HBox>
-                <TableView fx:id="preprod" prefWidth="250">
+                <TableView fx:id="preprod" prefWidth="250" onDragDetected="#dragDetected">
                     <columns>
                         <TableColumn text="Pre-Production" prefWidth="250">
                             <columns>
@@ -23,7 +23,7 @@
                         </TableColumn>
                     </columns>
                 </TableView>
-                <TableView fx:id="prod" prefWidth="250">
+                <TableView fx:id="prod" prefWidth="250" onDragOver="#dragOver" onDragDropped="#dragDropped" onDragDetected="#dragDetectedProd">
                     <columns>
                         <TableColumn text="Production" prefWidth="250">
                             <columns>
@@ -33,7 +33,7 @@
                         </TableColumn>
                     </columns>
                 </TableView>
-                <TableView fx:id="close" prefWidth="250">
+                <TableView fx:id="close" prefWidth="250" onDragOver="#dragOverClose" onDragDropped="#dragDroppedClose">
                     <columns>
                         <TableColumn text="Close Out" prefWidth="250">
                             <columns>

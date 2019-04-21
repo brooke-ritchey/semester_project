@@ -12,7 +12,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.input.*;
 import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -63,6 +63,14 @@ public class JobManagement implements Initializable {
     @FXML
     TableColumn preDesc;
     @FXML
+    TableColumn prodName;
+    @FXML
+    TableColumn prodDesc;
+    @FXML
+    TableColumn closeName;
+    @FXML
+    TableColumn closeDesc;
+    @FXML
     TableView<Job> preprod;
     @FXML
     TableView<Job> prod;
@@ -100,6 +108,7 @@ public class JobManagement implements Initializable {
     @FXML
     Label cost;
     Job selectedjob;
+    Job dragjob;
 
 
     public void setReturnScene(Scene scene){
@@ -111,15 +120,23 @@ public class JobManagement implements Initializable {
 
         jobs = FXCollections.observableArrayList();
         prejobs = FXCollections.observableArrayList();
+        prodjobs = FXCollections.observableArrayList();
+        closejobs = FXCollections.observableArrayList();
         jobRepository.findAll().forEach(j -> jobs.add(j));
-        jobs.stream().filter(j -> j.getStage() != "Pre-Production").forEach(j -> prejobs.add(j));
+        jobs.stream().filter(j -> j.getStage() == 1).forEach(j -> prejobs.add(j));
         preName.setCellValueFactory(new PropertyValueFactory<Job, String>("name"));
         preDesc.setCellValueFactory(new PropertyValueFactory<Job, String>("description"));
-        preprod.getColumns();
         preprod.setItems(prejobs);
-        jobs.stream().filter(j -> j.getStage() != "Production").forEach(j -> prodjobs.add(j));
-        jobs.stream().filter(j -> j.getStage() != "Close Out").forEach(j -> closejobs.add(j));
 
+        jobs.stream().filter(j -> j.getStage() == 2).forEach(j -> prodjobs.add(j));
+        prodName.setCellValueFactory(new PropertyValueFactory<Job, String>("name"));
+        prodDesc.setCellValueFactory(new PropertyValueFactory<Job, String>("description"));
+        prod.setItems(prodjobs);
+
+        jobs.stream().filter(j -> j.getStage() == 3).forEach(j -> closejobs.add(j));
+        closeName.setCellValueFactory(new PropertyValueFactory<Job, String>("name"));
+        closeDesc.setCellValueFactory(new PropertyValueFactory<Job, String>("description"));
+        close.setItems(closejobs);
     }
 
     @FXML
@@ -148,7 +165,7 @@ public class JobManagement implements Initializable {
 
             job.setDescription(desc.getText());
             job.setName(name.getText());
-            job.setStage(stage.getText());
+            job.setStage(Integer.parseInt(stage.getText()));
             job.setProduct(product);
             job.setCustomer(customer);
             jobRepository.save(job);
@@ -163,8 +180,7 @@ public class JobManagement implements Initializable {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jobManagement.fxml"));
         fxmlLoader.setControllerFactory(applicationContext::getBean);
         Scene scene = new Scene(fxmlLoader.load());
-        JobManagement newEmployee = fxmlLoader.getController();
-        newEmployee.setReturnScene(btnNew.getScene());
+        JobManagement jobEntry = fxmlLoader.getController();
         parent.setScene(scene);
     }
 
@@ -267,5 +283,80 @@ public class JobManagement implements Initializable {
         BigDecimal tax = total.multiply(new BigDecimal(".034"));
         BigDecimal totalwtax = total.add(tax);
         return totalwtax;
+    }
+
+    public void dragDetected(MouseEvent mouseEvent) {
+        dragjob = preprod.getSelectionModel().getSelectedItem();
+        if(dragjob.getProduct().getName()!="name") {
+            Dragboard dragboard = preprod.startDragAndDrop(TransferMode.COPY_OR_MOVE);
+            ClipboardContent clipboardContent = new ClipboardContent();
+            clipboardContent.putString(dragjob.getName());
+            dragboard.setContent(clipboardContent);
+            mouseEvent.consume();
+        }
+    }
+    public void dragOver(DragEvent dragEvent) {
+        Dragboard dragboard = dragEvent.getDragboard();
+        if(dragboard.hasContent(DataFormat.PLAIN_TEXT)){
+            dragEvent.acceptTransferModes(TransferMode.COPY_OR_MOVE);
+        }
+        dragEvent.consume();
+    }
+    public void dragDropped(DragEvent dragEvent) {
+        Dragboard dragboard = dragEvent.getDragboard();
+        var dragCompleted = false;
+        if(dragboard.hasContent(DataFormat.PLAIN_TEXT)){
+            dragjob.setStage(2);
+            jobRepository.save(dragjob);
+            prejobs.clear();
+            jobs.stream().filter(j -> j.getStage() == 1).forEach(j -> prejobs.add(j));
+            preprod.setItems(prejobs);
+            prodjobs.clear();
+            jobs.stream().filter(j -> j.getStage() == 2).forEach(j -> prodjobs.add(j));
+            prod.setItems(prodjobs);
+            prod.refresh();
+            dragCompleted = true;
+        }
+
+        dragEvent.setDropCompleted(dragCompleted);
+        dragEvent.consume();
+    }
+    public void dragDetectedProd(MouseEvent mouseEvent) {
+        dragjob = prod.getSelectionModel().getSelectedItem();
+
+            Dragboard dragboard = prod.startDragAndDrop(TransferMode.COPY_OR_MOVE);
+            ClipboardContent clipboardContent = new ClipboardContent();
+            clipboardContent.putString(dragjob.getName());
+            dragboard.setContent(clipboardContent);
+            mouseEvent.consume();
+    }
+    public void dragOverClose(DragEvent dragEvent) {
+        if(dragjob.getStage() == 2) {
+            Dragboard dragboard = dragEvent.getDragboard();
+            if (dragboard.hasContent(DataFormat.PLAIN_TEXT)) {
+                dragEvent.acceptTransferModes(TransferMode.COPY_OR_MOVE);
+            }
+            dragEvent.consume();
+        }
+    }
+    public void dragDroppedClose(DragEvent dragEvent) {
+        Dragboard dragboard = dragEvent.getDragboard();
+        var dragCompleted = false;
+        if(dragboard.hasContent(DataFormat.PLAIN_TEXT)){
+            dragjob.setStage(3);
+            jobRepository.save(dragjob);
+            prodjobs.clear();
+            jobs.stream().filter(j -> j.getStage() == 2).forEach(j -> prodjobs.add(j));
+            prod.setItems(prodjobs);
+            closejobs.clear();
+            jobs.stream().filter(j -> j.getStage() == 3).forEach(j -> closejobs.add(j));
+            close.setItems(closejobs);
+            close.refresh();
+            dragCompleted = true;
+        }
+
+        dragEvent.setDropCompleted(dragCompleted);
+        dragEvent.consume();
+
     }
 }

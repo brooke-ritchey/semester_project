@@ -9,7 +9,7 @@ public class Job {
     private int id;
     private String name;
     private String description;
-    private String stage;
+    private Integer stage;
     Product product;
 
     Customer customer;
@@ -72,11 +72,11 @@ public class Job {
 
     @Basic
     @Column(name = "STAGE", nullable = false, length = 15)
-    public String getStage() {
+    public Integer getStage() {
         return stage;
     }
 
-    public void setStage(String stage) {
+    public void setStage(Integer stage) {
         this.stage = stage;
     }
 
