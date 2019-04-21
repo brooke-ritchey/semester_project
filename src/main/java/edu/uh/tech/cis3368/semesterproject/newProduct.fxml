@@ -8,12 +8,12 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="edu.uh.tech.cis3368.semesterproject.NewProduct"
+            fx:controller="edu.uh.tech.cis3368.semesterproject.JobManagement"
             prefHeight="400.0" prefWidth="600.0">
     <children>
     <VBox>
         <Label text="Job"/>
-        <ComboBox fx:id="drop"/>
+        <Label fx:id="drop"/>
         <Label text="Product"/>
         <HBox>
             <Label text="Name"/>
@@ -35,7 +35,11 @@
             <Label text="Total Price"/>
             <Label fx:id="cost"/>
         </HBox>
-        <Button text="save" onAction="#save"/>
+        <HBox>
+            <Button text="save" onAction="#saveProduct"/>
+            <Button text="back" onAction="#back"/>
+        </HBox>
+
     </VBox>
     </children>
 </AnchorPane>
